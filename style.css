@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+#box{
+    background-color: #E1E289;
+    height: 18vmin;
+    width : 18vmin;
+    border-radius: 1.5vmin;
+    border: none;
+    font-size: 8vmin;
+    color: #14591D;
+}
+body{
+    background-color: #0A210F;
+}
+#reset-btn{
+    padding: 1rem;
+    background-color: #E1E289;
+    border-radius: 1.5vmin;
+}
+.hide{
+    display: none;
+
+}
+.msg {
+    color: aqua;
+    align-items: center;
+    justify-content: center;
+}
