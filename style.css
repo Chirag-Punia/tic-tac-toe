@@ -36,10 +36,14 @@ body{
 }
 .hide{
     display: none;
-
 }
 .msg {
     color: aqua;
     align-items: center;
     justify-content: center;
+}
+.new-btn{
+    display: none;
+    justify-content: center;
+    align-content: center;
 }
